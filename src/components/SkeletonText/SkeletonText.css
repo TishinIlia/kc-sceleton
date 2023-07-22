@@ -1,0 +1,12 @@
+.skeleton-text {
+	color: var(--skeleton-color);
+	width: 100%;
+}
+
+.skeleton-text__row {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: 1em;
+	background-color: var(--skeleton-color);
+}

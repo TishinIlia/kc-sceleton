@@ -2,4 +2,42 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+
+:root {
+	--background: #CCCCCC33;
+	--primary-color: #000;
+	--secondary-color: #666;
+	--white-0: rgba(255, 255,255, 0);
+	--white-80: rgba(255, 255,255, 0.8);
+	--skeleton-color: #E4E4E4;
+	--skeleton-gradient: linear-gradient(90deg, var(--white-0) 0%, var(--white-80) 26.04%, var(--white-0) 100%);
+}
+
+.container {
+	padding: 0;
+}
+
+
+.skeleton-gradient {
+	background-size: 200% 100%;
+	background-attachment: fixed;
+	background-image: var(--skeleton-gradient);
+	animation: skeleton-gradient-animation 500ms linear infinite;
+
+
+}
+
+@keyframes skeleton-gradient-animation {
+	from {
+		background-position: 100% 0;
+	}
+
+	to {
+		background-position: -100% 0;
+	}
 }

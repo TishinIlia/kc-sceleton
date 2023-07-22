@@ -1,2 +1,2 @@
-# kc-sceleton
+# kc-skeleton
 Created with CodeSandbox
